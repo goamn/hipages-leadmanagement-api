@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+  database:
+    image: postgres:9.6.16
+    command: postgres -c 'max_connections=200'
+    ports:
+      - "16201:5432"
+    restart: always
+    environment:
+      POSTGRES_DB: leadmanagementDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    networks:
+      - docker-network
+
+networks:
+  docker-network:
+    name: leadmanagement-api-network
+    driver: bridge

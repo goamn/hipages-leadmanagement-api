@@ -1,0 +1,70 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lock
+*.idle-shm
+*.idle-wal
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+*/.vs
+.vs
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+packages/
+*/.vs
+*.boltdata
+Deployed
+
+*.ncrunchproject
+*.ncrunchsolution
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+*.origapp.config
+\r\n
+web.config
+\r\n
+.artifact/
+.pipeline/
+.build/
+version.txt
+Package
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+.idea/*
+*.xml
+node_modules/
