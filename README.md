@@ -2,7 +2,14 @@
 
 Requires .Net Core version 3.1 with Docker (if running Docker Toolbox, see the section about it below).
 
-Build and then run the "LeadManagement.Api" project.
+Ensure docker is running:
+
+```
+cd ./src
+docker-compose up -d --force-recreate
+```
+
+Then build and run the "LeadManagement.Api" project via dotnet commands or Visual Studio 2019.
 
 ## Tests
 
