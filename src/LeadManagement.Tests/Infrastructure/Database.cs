@@ -1,9 +1,5 @@
 using System;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
-using Dapper;
 using DbUp;
-using Npgsql;
 using static System.Environment;
 
 namespace Leadmanagement.Tests.Infrastructure

@@ -1,6 +1,4 @@
-using DbUp;
 using Leadmanagement.Api;
-using Leadmanagement.Api.Features.Common;
 using Leadmanagement.Api.Features.Leads;
 using Leadmanagement.Api.Infrastructure.Database;
 using Microsoft.AspNetCore.Hosting;
@@ -12,7 +10,6 @@ using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Reflection;
 using System.Threading.Tasks;
 using static System.Environment;
 

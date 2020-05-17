@@ -5,10 +5,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using FakeItEasy;
 using FluentAssertions;
-using Leadmanagement.Api.Features.Common;
 using Leadmanagement.Api.Features.Leads;
 using Leadmanagement.Tests.Infrastructure;
-using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using Xunit;
 
